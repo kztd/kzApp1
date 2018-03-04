@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Set screen width and initial zoom -->
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>kzApp One</title>
+    <!-- cool place to grab fonts !-->
+    <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <!-- my style sheet !-->
+
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <header>
+        Welcome to Samoanizia<br>
+        <h1>kzApp One 23</h1>
+        Press <button id="ok">OK</button> to Continue
+    </header>
+    <section id="results">
+        <p id="js-quizResult"></p>
+        <p id="js-quizScore"></p>
+        <p id="btnRetake" clas="retake">Press the button to restart</p>
+        <button id="jsRetake" class="retake"></button>
+    </section>
+    <section id="questions">
+        <span id="question"></span>
+        <form id="choices" action="">
+            <p id="answers" role="radiogroup" aria-labelledby="question"></p>
+            <button id="checkAnswer" type="submit" value="CheckNow">Check Answer</button>
+        </form>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
